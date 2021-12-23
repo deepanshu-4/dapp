@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.head_shot{
+font-weight: bold;
+padding: 15px;
+}
+
+.btn{
+  margin: auto;
+  background-color: azure;
+  border-radius: 10%;
+  letter-spacing: 2px;
+  /*width: 50px;*/
+  /*font-size: 1rem;*/
+  padding: 4px;
+  margin-bottom: 5px;
+}
+.btn:hover{
+cursor: pointer;
+}
+
+nav{
+background-color: grey;
+margin: 5px;padding: 20px; background-color: lightgoldenrodyellow;font-weight: bold;color: green;
+font-weight: bold;
+padding: 15px;
+}
+
+.link{
+text-decoration: none;
+
+}
+ul {
+  display: flex;
+  /*background-color: DodgerBlue;*/
+}
+
+li {
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 15px 100px 15px 15px;
+  font-size: 15px;
+  list-style:none ;
+  text-decoration: none;
+}
+li :hover{
+letter-spacing: 1.5px;
+font-size: 16px;
+}
+li :active{
+background-color: blue;
+}
